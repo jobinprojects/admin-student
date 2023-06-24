@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-bounce 2s infinite;
+  }
+}
+
+.App-header {
+  background-color: #0f58ea;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+  transition: transform 0.3s ease;
+}
+
+.App-link:hover {
+  transform: scale(1.1);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Styles for tablet view */
+@media (max-width: 768px) {
+  .fee-status-module {
+    font-size: 16px;
+  }
+  
+  .student-table th,
+  .student-table td {
+    padding: 8px;
+  }
+  
+  .student-table th:nth-child(n+5),
+  .student-table td:nth-child(n+5) {
+    display: none;
+  }
+}
+
+

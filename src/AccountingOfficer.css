@@ -1,0 +1,35 @@
+.accounting-officer-container {
+    background-color: #f5f5f5;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .accounting-officer-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .accounting-officer-details {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .accounting-officer-details p {
+    margin-bottom: 10px;
+  }
+  
+  .accounting-officer-email {
+    color: #4a90e2;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .accounting-officer-email:hover {
+    color: #3a70b2;
+  }
+  
